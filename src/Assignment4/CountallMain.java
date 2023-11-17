@@ -1,6 +1,6 @@
 package Assignment4;
 
-import Assignment3.Count1;
+//import Assignment3.Count1;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class CountallMain {
                 noOfChars = noOfChars+objCount.getNoChar(inputText);
                 noOfWords = noOfWords+objCount.getNoWords(inputText);
                 lWord     = objCount.getLongWord(inputText,lWord);
-                System.out.println("Longest word is : Temp:"+ lWord); //noOfChar
+              //  System.out.println("Longest word is : " + lWord); //noOfChar
             }
         }
         System.out.println("Number of lines is :"+noOfLines);
